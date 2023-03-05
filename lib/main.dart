@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 void main() {
   runApp(VSJQuizApp());
 }
@@ -18,13 +18,14 @@ class VSJQuizApp extends StatelessWidget {
             appBar: AppBar(
               backgroundColor: Colors.teal,
               title: Card(
+                borderOnForeground:  false,
                   child: Text(
                 "Quiz App",
-                style: TextStyle(
-                  fontSize: 40,
-                  fontWeight: FontWeight.bold,
-                  backgroundColor: Colors.teal,
-                ),
+
+                style:
+
+                  GoogleFonts.robotoFlex( fontStyle: FontStyle.italic,fontSize: 32,backgroundColor: Colors.teal),
+
               )),
               centerTitle: true,
             ),
