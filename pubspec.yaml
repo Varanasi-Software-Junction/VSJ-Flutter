@@ -9,6 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+  card_slider: ^1.0.5
   cupertino_icons: 1.0.5
   google_fonts: ^4.0.3
 
